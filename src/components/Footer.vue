@@ -15,6 +15,15 @@
           </li>
         </ul>
       </div>
+
+      <div class="col-span-3 md:col-span-1 mt-2 md:mt-0">
+        <h3 class="text-xl py-1.5 font-bold">我们</h3>
+        <ul class="text-sm">
+          <li v-for="contact in contacts" :key="contact.name" class="mt-1.5">
+            <a :href="contact.url" target="_blank">{{ contact.name }}</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 </template>
@@ -28,6 +37,13 @@ const links = [
   {
     name: "量见论坛",
     url: "https://bbs.cjlu.cc"
+  }
+]
+
+const contacts = [
+  {
+    name: "QQ群",
+    url: "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=4rKquohheWp31szGG6RESC2e__mZ2A2f&authKey=%2FVm%2BUctzHuJ23nMYVvQ7gEfCX6FZIR4KPwlKGkC25V9KvKmBYRiJSzjdN6xobu%2BH&noverify=0&group_code=529555678"
   }
 ]
 </script>
