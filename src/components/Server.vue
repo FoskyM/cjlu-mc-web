@@ -2,7 +2,7 @@
   <div class="grid grid-cols-3">
     <div class="col-span-3 lg:col-span-1 mb-5 lg:mb-0" v-for="server in servers" :key="server.name">
 
-      <div class="mx-5 border-2 border-gray-200 shadow-md rounded-lg">
+      <div class="mx-5 border-2 border-gray-200 shadow-md hover:shadow-2xl ease-in-out duration-300 rounded-lg">
         <div class="border-b-2">
           <h3 class="text-left text-2xl font-bold px-5 py-2">{{ server.name }}</h3>
         </div>

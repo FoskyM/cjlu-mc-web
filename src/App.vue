@@ -3,9 +3,8 @@
     <img alt="logo" src="@/assets/logo.jpg" class="h-full mr-2 hidden"/>
     <h1 class="text-2xl font-bold my-auto">CJLU MC</h1>
     <nav class="my-auto ml-5 flex items-center">
-      <RouterLink to="/" class="bg-gray-200/75 hover:bg-gray-300 mx-1 px-5 py-2 rounded-lg">首页</RouterLink>
-      <RouterLink to="/about" class="bg-gray-200/75 hover:bg-gray-300 mx-1 px-5 py-2 rounded-lg">关于</RouterLink>
-      <RouterLink to="/history" class="bg-gray-200/75 hover:bg-gray-300 mx-1 px-5 py-2 rounded-lg">历程</RouterLink>
+      <RouterLink :to="link.url" class="bg-gray-200/75 hover:bg-gray-300 mx-1 px-5 py-2 rounded-lg ease-in-out duration-300" v-for="link in route_links" :key="link.name">
+        {{ link.name }}</RouterLink>
     </nav>
 
   </header>
@@ -21,6 +20,21 @@
 <script setup>
 import {RouterLink, RouterView} from 'vue-router'
 import Footer from "@/components/Footer.vue";
+
+const route_links = [
+  {
+    name: "首页",
+    url: "/"
+  },
+  {
+    name: "关于",
+    url: "/about"
+  },
+  {
+    name: "历程",
+    url: "/history"
+  }
+]
 </script>
 
 <style scoped>
