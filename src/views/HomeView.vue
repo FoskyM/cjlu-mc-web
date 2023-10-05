@@ -7,7 +7,7 @@
     </div>
 
   <div class="mt-10">
-    <div class="border-2 border-gray-600 shadow-md rounded-2xl ">
+    <div class="border-2 border-gray-600 shadow-md rounded-2xl">
       <div class="border-b-2">
         <h3 class="text-left text-2xl font-bold px-5 py-2">关于我们</h3>
       </div>
@@ -17,8 +17,22 @@
     </div>
   </div>
 
+  <div class="mt-10">
+    <div class="border-2 border-gray-600 shadow-md rounded-2xl">
+      <div class="border-b-2">
+        <h3 class="text-left text-2xl font-bold px-5 py-2">服务器列表</h3>
+      </div>
+      <div class="px-5 py-5">
+
+        <Server />
+
+      </div>
+    </div>
+  </div>
+
 </template>
 
 <script setup>
 
+import Server from "@/components/Server.vue";
 </script>
