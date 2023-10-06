@@ -65,7 +65,7 @@ const albums = [
       }
     })
   }, {
-    name: '游戏内截图',
+    name: '一周目截图',
     author: 'FoskyM',
     photos: photo_foskym.map((photo) => {
       return {
