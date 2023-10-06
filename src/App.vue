@@ -32,6 +32,10 @@ const route_links = [
     url: "/facts"
   },
   {
+    name: "相册",
+    url: "/photo"
+  },
+  {
     name: "历程",
     url: "/history"
   }
