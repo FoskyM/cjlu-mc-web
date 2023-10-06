@@ -28,8 +28,8 @@ const route_links = [
     url: "/"
   },
   {
-    name: "关于",
-    url: "/about"
+    name: "实况",
+    url: "/facts"
   },
   {
     name: "历程",
