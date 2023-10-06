@@ -8,8 +8,8 @@
 
       <div class="mt-5"></div>
 
-      <div class="grid grid-cols-3">
-        <div class="col-span-3 lg:col-span-1 mb-5" v-for="photo in album.photos" :key="photo">
+      <div class="grid grid-cols-4">
+        <div class="col-span-4 md:col-span-2 lg:col-span-1 mb-5" v-for="photo in album.photos" :key="photo">
           <a :href="photo.src" target="_blank">
             <div class="mx-5 border-2 border-gray-200 shadow-md hover:shadow-2xl ease-in-out duration-300 rounded-lg">
               <img :src="photo.src" alt="" class="w-full"/>
