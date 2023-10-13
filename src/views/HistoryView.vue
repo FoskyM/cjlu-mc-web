@@ -1,6 +1,6 @@
 <template>
 
-  <div class="mt-5 px-28 min-h-[36rem] flex items-center">
+  <div class="mt-5 px-5 md:px-12 lg:px-28 min-h-[36rem] flex items-center">
     <ul class="list-disc">
       <li class="mt-2" v-for="log in logs.reverse()" :key="log">
         <span class="font-bold">{{ log.time }}：</span>

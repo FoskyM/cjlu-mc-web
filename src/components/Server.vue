@@ -4,9 +4,9 @@
 
       <div class="mx-5 border-2 border-gray-200 shadow-md hover:shadow-2xl ease-in-out duration-300 rounded-lg">
         <div class="border-b-2">
-          <h3 class="text-left text-2xl font-bold px-5 py-2">{{ server.name }}</h3>
+          <h3 class="text-left text-xl font-medium px-5 py-2 italic">{{ server.name }}</h3>
         </div>
-        <div class="px-5 py-4">
+        <div class="px-5 py-4 min-h-[216px]">
           <ul>
             <li>
               <span class="font-bold">游戏版本：</span>
@@ -18,19 +18,19 @@
             </li>
             <li class="mt-2">
               <span class="font-bold">连接地址：</span>
-              <span class="select-all">{{ server.address }}</span>
+              <span class="select-all underline">{{ server.address }}</span>
             </li>
             <li class="mt-2">
               <span class="font-bold">注册：</span>
-              <span class="select-all">{{ server.register }}</span>
+              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 rounded">{{ server.register }}</span>
             </li>
             <li class="mt-2">
               <span class="font-bold">登录：</span>
-              <span class="select-all">{{ server.login }}</span>
+              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 rounded">{{ server.login }}</span>
             </li>
             <li class="mt-2" v-if="server.join && server.join !== ''">
               <span class="font-bold">进入子服：</span>
-              <span class="select-all">{{ server.join }}</span>
+              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 rounded">{{ server.join }}</span>
             </li>
           </ul>
         </div>
@@ -66,7 +66,7 @@ const servers = [
     version: '1.19.2',
     register: '/register 密码 重复密码',
     login: '/login 密码',
-    join: '/join',
+    join: '',
   }
 ]
 
