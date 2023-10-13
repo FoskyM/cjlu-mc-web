@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-100 h-10 md:h-16 flex text-black-800 px-5 shadow-md px-0 md:px-40">
+  <header class="bg-gray-100/75 backdrop-blur-lg fixed top-0 w-full h-10 md:h-16 flex text-black-800 px-5 shadow-md px-0 md:px-40">
     <img alt="logo" src="@/assets/logo.jpg" class="h-full mr-2 hidden"/>
     <h1 class="text-base md:text-2xl font-bold my-auto">CJLU MC</h1>
     <nav class="my-auto ml-2 md:ml-5 flex items-center">
@@ -9,7 +9,7 @@
 
   </header>
 
-  <div class="container">
+  <div class="container pt-20">
     <RouterView/>
   </div>
 
