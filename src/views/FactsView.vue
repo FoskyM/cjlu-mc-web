@@ -56,10 +56,19 @@ const videos = [
   },
   {
     avid: 774399607,
-    bvid: 'BV1j14y157im?',
+    bvid: 'BV1j14y157im',
     title: '【计量大学服务器】浏览玩家的建筑成果',
     pic: new URL(`@/assets/video-cover/b38a575148ae63f6b61540659d3acc12c6cb6902.jpg`, import.meta.url).href,
     time: '2022-10-25 12:12:25',
+    author: '随便不是猪',
+    author_id: 338956888
+  },
+  {
+    avid: 608678763,
+    bvid: 'BV1j84y1j7Zj',
+    title: '大学服务器居然有这么多逆天建筑',
+    pic: new URL(`@/assets/video-cover/2e8132a5700fc9dda6bed8d8353b302bf1706bee.jpg`, import.meta.url).href,
+    time: '2023-02-02 14:56:53',
     author: '随便不是猪',
     author_id: 338956888
   }
