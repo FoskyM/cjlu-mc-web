@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-200 py-10 px-5 lg:px-40 absolute bottom-0 w-full">
+  <footer class="bg-gray-300/75 py-10 px-5 lg:px-40 absolute bottom-0 w-full border-blue-300 border-t-2">
     <div class="grid grid-cols-3">
       <div class="col-span-3 md:col-span-1">
         <h3 class="text-xl py-1.5 font-bold">版权所有</h3>
@@ -44,6 +44,9 @@ const contacts = [
   {
     name: "QQ群",
     url: "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=4rKquohheWp31szGG6RESC2e__mZ2A2f&authKey=%2FVm%2BUctzHuJ23nMYVvQ7gEfCX6FZIR4KPwlKGkC25V9KvKmBYRiJSzjdN6xobu%2BH&noverify=0&group_code=529555678"
+  }, {
+    name: "Github",
+    url: "https://github.com/FoskyM/cjlu-mc-web"
   }
 ]
 </script>
