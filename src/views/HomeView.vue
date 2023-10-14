@@ -6,6 +6,12 @@
       </a>
     </div>
 
+  <div class="mt-5">
+    <a href="#" target="_blank" title="Minecraft server">
+      <img src="https://api.fosky.top/api/minecraft/image?address=life.mc.cjlu.cc" alt="Minecraft server" class="w-full md:w-4/6 lg:w-3/6 mx-auto shadow-md hover:shadow-2xl ease-in-out duration-300"/>
+    </a>
+  </div>
+
   <div class="mt-10">
     <div class="border-2 border-gray-600 shadow-md rounded-xl">
       <div class="border-b-2">
