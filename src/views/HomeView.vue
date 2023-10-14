@@ -1,8 +1,8 @@
 <template>
 
     <div class="mt-10">
-      <a href="https://minecraftlist.com/servers/59x-02.mcstory.cc:13652" target="_blank" title="Minecraft server">
-        <img src="https://minecraftlist.com/servers/59x-02.mcstory.cc:13652/banner@2x.jpg" alt="Minecraft server" class="w-full md:w-4/6 lg:w-3/6 mx-auto shadow-md hover:shadow-2xl ease-in-out duration-300"/>
+      <a href="https://www.mclists.cn/server/7086.html" target="_blank" title="Minecraft server">
+        <img src="https://api.fosky.top/api/minecraft/image?address=mc.cjlu.cc" alt="Minecraft server" class="w-full md:w-4/6 lg:w-3/6 mx-auto shadow-md hover:shadow-2xl ease-in-out duration-300"/>
       </a>
     </div>
 
