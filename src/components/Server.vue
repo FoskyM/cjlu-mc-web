@@ -22,15 +22,15 @@
             </li>
             <li class="mt-2">
               <span class="font-bold select-none">注册：</span>
-              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 rounded">{{ server.register }}</span>
+              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 text-sm rounded">{{ server.register }}</span>
             </li>
             <li class="mt-2">
               <span class="font-bold select-none">登录：</span>
-              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 rounded">{{ server.login }}</span>
+              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 text-sm rounded">{{ server.login }}</span>
             </li>
             <li class="mt-2" v-if="server.join && server.join !== ''">
               <span class="font-bold select-none">子服：</span>
-              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 rounded">{{ server.join }}</span>
+              <span class="select-all text-red-400 bg-red-100 py-0.5 px-1.5 text-sm rounded">{{ server.join }}</span>
             </li>
           </ul>
         </div>
@@ -48,24 +48,24 @@ const servers = [
     address: 'mc.cjlu.cc',
     intro: '纯净生存',
     version: '1.20.2',
-    register: '/register 密码 重复密码',
-    login: '/login 密码',
+    register: '/register [密码] [重复密码]',
+    login: '/login [密码]',
     join: '/join',
   }, {
     name: '群组服-创造子服',
     address: 'mc.cjlu.cc',
     intro: '复刻创造',
     version: '1.19.2',
-    register: '/register 密码 重复密码',
-    login: '/login 密码',
+    register: '/register [密码] [重复密码]',
+    login: '/login [密码]',
     join: '/join',
   }, {
     name: '暑期冒险',
     address: 'life.mc.cjlu.cc',
     intro: '整合包(Life in the Village 3)',
     version: '1.19.2',
-    register: '/register 密码 重复密码',
-    login: '/login 密码',
+    register: '/register [密码] [重复密码]',
+    login: '/login [密码]',
     join: '',
   }
 ]
