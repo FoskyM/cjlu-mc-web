@@ -36,7 +36,10 @@ const logs = [
     content: '1.20.2 新周目纯净生存'
   }, {
     time: '2023.10.14',
-    content: '一周年'
+    content: '开服一周年'
+  }, {
+    time: '2023.10.15',
+    content: '增加 CAuth 认证系统'
   }
 ]
 </script>
